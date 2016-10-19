@@ -8,6 +8,8 @@
 ##
 FROM dorgendubal/liferay-dxp-wildfly:latest 
 
+EXPOSE 8080
+
 # PATHS
 ENV LIFERAY_HOME		/opt/app/liferay/
 ENV WILDFLY_HOME		/opt/app/liferay/wildfly
